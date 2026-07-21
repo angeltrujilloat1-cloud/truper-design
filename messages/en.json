@@ -1,0 +1,100 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "GET A QUOTE",
+    "langEn": "EN",
+    "langEs": "ES",
+    "menu": "Menu"
+  },
+  "Hero": {
+    "eyebrow": "TRUPER DESIGN",
+    "line1": "Your brand,",
+    "line2": "your style,",
+    "line3": "crafted with impact.",
+    "description": "Premium identity and product design for brands that stand out.",
+    "quoteWhatsapp": "QUOTE ON WHATSAPP",
+    "viewWork": "VIEW WORK",
+    "feature1Title": "Premium production",
+    "feature1Description": "We deliver refined outputs with exceptional materials and premium finish.",
+    "feature2Title": "Bold identity",
+    "feature2Description": "Brand work designed to make every touchpoint feel confident and memorable.",
+    "feature3Title": "Fast execution",
+    "feature3Description": "Studio speed, rigorous process and clear delivery to move your project ahead.",
+    "feature4Title": "Dedicated support",
+    "feature4Description": "We guide every step, from briefing to launch, with clarity and precision."
+  },
+  "Benefits": {
+    "eyebrow": "Benefits",
+    "title": "Design that brings clarity, authority and real brand value.",
+    "description": "We build visual systems and experiences with intent, consistency and a high level of execution that stands out from the first contact.",
+    "item1Title": "Strategic identity",
+    "item1Description": "We define your visual language and messaging so every piece feels precise, premium, and unmistakably yours.",
+    "item2Title": "Results-driven process",
+    "item2Description": "A streamlined studio workflow keeps every stage aligned with your target and business goals.",
+    "item3Title": "High-impact visuals",
+    "item3Description": "We design with contrast, hierarchy, and material detail that give your brand real presence.",
+    "item4Title": "Flawless delivery",
+    "item4Description": "Every asset is polished with care so the execution is as strong as the concept."
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "Technical and creative solutions for brands that demand presence.",
+    "description": "Every service is crafted with premium visual quality, strategic clarity and market impact."
+  },
+  "Products": {
+    "eyebrow": "Products",
+    "title": "Real product applications with premium presence.",
+    "item1Label": "Premium T-Shirt",
+    "item1Description": "Premium cotton finish with clean branding and elevated texture.",
+    "item2Label": "Premium Polo",
+    "item2Description": "Structured collar and refined print placement for a professional feel.",
+    "item3Label": "Embroidered Cap",
+    "item3Description": "Fine embroidery and polished finishing for signature headwear pieces.",
+    "item4Label": "Hoodie",
+    "item4Description": "Soft, premium apparel for streetwear and corporate merchandise alike."
+  },
+  "Contact": {
+    "eyebrow": "Quote request",
+    "title": "Tell us about your project.",
+    "description": "Share your idea and we will turn it into a premium brand experience with strong visual impact.",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone",
+    "productNeeded": "Which product do you need?",
+    "selectOption": "Select an option",
+    "optionDtf": "DTF printing",
+    "optionEmbroidery": "Custom embroidery",
+    "optionDesign": "Graphic design",
+    "projectDetails": "Tell us about your project",
+    "submit": "SEND QUOTE REQUEST"
+  },
+  "WhatsAppCta": {
+    "orderNow": "ORDER NOW",
+    "description": "Request a quote on WhatsApp and get a fast response with premium design direction.",
+    "confidence": "Confidence by design",
+    "brand": "TRUPER DESIGN",
+    "quoteWhatsapp": "QUOTE ON WHATSAPP"
+  },
+  "QualityBanner": {
+    "badge": "Premium quality",
+    "title": "Every piece is designed to convey authority from the first glance.",
+    "description": "We design with industrial-grade detail, precise visual language, and consistent execution across every brand touchpoint.",
+    "responseTime": "Response time",
+    "premiumProjects": "Premium projects",
+    "detailLevel": "Detail level",
+    "focus": "Focus",
+    "highest": "Highest",
+    "conversion": "Conversion",
+    "quoteWhatsapp": "Quote on WhatsApp"
+  },
+  "Footer": {
+    "copyright": "© 2026 TRUPER DESIGN. Premium brand and digital experience.",
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  }
+}

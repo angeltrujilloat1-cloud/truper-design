@@ -1,0 +1,100 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "SOLICITAR COTIZACION",
+    "langEn": "EN",
+    "langEs": "ES",
+    "menu": "Menu"
+  },
+  "Hero": {
+    "eyebrow": "TRUPER DESIGN",
+    "line1": "Tu marca,",
+    "line2": "tu estilo,",
+    "line3": "creada con impacto.",
+    "description": "Identidad premium y diseno de producto para marcas que quieren destacar.",
+    "quoteWhatsapp": "COTIZAR POR WHATSAPP",
+    "viewWork": "VER TRABAJOS",
+    "feature1Title": "Produccion premium",
+    "feature1Description": "Entregamos resultados refinados con materiales de alta calidad y acabados premium.",
+    "feature2Title": "Identidad audaz",
+    "feature2Description": "Diseno de marca para que cada punto de contacto se sienta seguro y memorable.",
+    "feature3Title": "Ejecucion rapida",
+    "feature3Description": "Velocidad de estudio, proceso riguroso y entrega clara para impulsar tu proyecto.",
+    "feature4Title": "Soporte dedicado",
+    "feature4Description": "Te guiamos en cada etapa, desde el brief hasta el lanzamiento, con claridad y precision."
+  },
+  "Benefits": {
+    "eyebrow": "Beneficios",
+    "title": "Diseno que aporta claridad, autoridad y valor real de marca.",
+    "description": "Construimos sistemas visuales y experiencias con intencion, consistencia y un alto nivel de ejecucion que destaca desde el primer contacto.",
+    "item1Title": "Identidad estrategica",
+    "item1Description": "Definimos tu lenguaje visual y mensaje para que cada pieza se sienta precisa, premium e inconfundiblemente tuya.",
+    "item2Title": "Proceso orientado a resultados",
+    "item2Description": "Un flujo de trabajo optimizado mantiene cada etapa alineada con tus objetivos de negocio.",
+    "item3Title": "Visuales de alto impacto",
+    "item3Description": "Disenamos con contraste, jerarquia y detalle material para dar presencia real a tu marca.",
+    "item4Title": "Entrega impecable",
+    "item4Description": "Cada activo se pule con cuidado para que la ejecucion sea tan fuerte como el concepto."
+  },
+  "Services": {
+    "eyebrow": "Servicios",
+    "title": "Soluciones tecnicas y creativas para marcas que exigen presencia.",
+    "description": "Cada servicio se construye con calidad visual premium, claridad estrategica e impacto comercial."
+  },
+  "Products": {
+    "eyebrow": "Productos",
+    "title": "Aplicaciones reales de producto con presencia premium.",
+    "item1Label": "Playera Premium",
+    "item1Description": "Acabado de algodon premium con branding limpio y textura elevada.",
+    "item2Label": "Polo Premium",
+    "item2Description": "Cuello estructurado y colocacion refinada para una imagen profesional.",
+    "item3Label": "Gorra Bordada",
+    "item3Description": "Bordado fino y terminados pulidos para piezas de headwear distintivas.",
+    "item4Label": "Hoodie",
+    "item4Description": "Prenda premium para streetwear y mercancia corporativa por igual."
+  },
+  "Contact": {
+    "eyebrow": "Solicitud de cotizacion",
+    "title": "Cuentanos sobre tu proyecto.",
+    "description": "Comparte tu idea y la convertiremos en una experiencia de marca premium con alto impacto visual.",
+    "fullName": "Nombre completo",
+    "email": "Correo electronico",
+    "phone": "Telefono",
+    "productNeeded": "Que producto necesitas?",
+    "selectOption": "Selecciona una opcion",
+    "optionDtf": "Impresion DTF",
+    "optionEmbroidery": "Bordado personalizado",
+    "optionDesign": "Diseno grafico",
+    "projectDetails": "Cuentanos sobre tu proyecto",
+    "submit": "ENVIAR SOLICITUD"
+  },
+  "WhatsAppCta": {
+    "orderNow": "ORDENA AHORA",
+    "description": "Solicita tu cotizacion por WhatsApp y recibe una respuesta rapida con direccion de diseno premium.",
+    "confidence": "Confianza por diseno",
+    "brand": "TRUPER DESIGN",
+    "quoteWhatsapp": "COTIZAR POR WHATSAPP"
+  },
+  "QualityBanner": {
+    "badge": "Calidad premium",
+    "title": "Cada pieza se disena para transmitir autoridad desde la primera mirada.",
+    "description": "Disenamos con detalle de nivel industrial, lenguaje visual preciso y ejecucion consistente en cada punto de contacto de marca.",
+    "responseTime": "Tiempo de respuesta",
+    "premiumProjects": "Proyectos premium",
+    "detailLevel": "Nivel de detalle",
+    "focus": "Enfoque",
+    "highest": "Maximo",
+    "conversion": "Conversion",
+    "quoteWhatsapp": "Cotizar por WhatsApp"
+  },
+  "Footer": {
+    "copyright": "© 2026 TRUPER DESIGN. Marca premium y experiencia digital.",
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galeria",
+    "contact": "Contacto"
+  }
+}
