@@ -14,13 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TRUPER DESIGN | Premium branding and digital experience",
-  description:
-    "TRUPER DESIGN builds premium brands and digital experiences with identity, strategy and high-end execution.",
+  title: "TRUPER DESIGN",
+  description: "Premium Branding & Custom Apparel",
   icons: {
-    icon: "/favicon/favicon.ico",
-    shortcut: "/favicon/favicon.ico",
-    apple: "/favicon/apple-touch-icon.png",
+    icon: [
+      { url: "/favicon/favicon.ico" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [{ url: "/favicon/apple-touch-icon.png", sizes: "180x180" }],
   },
   manifest: "/favicon/site.webmanifest",
 };
