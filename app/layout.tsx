@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "TRUPER DESIGN | Premium branding and digital experience",
   description:
     "TRUPER DESIGN builds premium brands and digital experiences with identity, strategy and high-end execution.",
+  icons: {
+    icon: "/favicon/favicon.ico",
+    shortcut: "/favicon/favicon.ico",
+    apple: "/favicon/apple-touch-icon.png",
+  },
+  manifest: "/favicon/site.webmanifest",
 };
 
 export default function RootLayout({
