@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import FloatingWhatsApp from "@/components/UI/FloatingWhatsApp";
 import { LocaleProvider } from "@/components/UI/LocaleProvider";
 import "./globals.css";
 
@@ -38,7 +39,10 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-[#080808] text-white">
-        <LocaleProvider>{children}</LocaleProvider>
+        <LocaleProvider>
+          {children}
+          <FloatingWhatsApp />
+        </LocaleProvider>
       </body>
     </html>
   );
