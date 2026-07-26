@@ -16,7 +16,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 px-4 pt-[10px]">
+    <header className="w-full px-4 pt-[10px]">
       <div className="mx-auto w-full max-w-[1500px]">
         <div className="relative overflow-hidden rounded-none border border-[rgba(255,255,255,0.08)] bg-[#0B0B0B] shadow-[0_8px_26px_rgba(0,0,0,0.3)]">
           <div className="absolute inset-x-0 top-0 h-[2px] bg-[#F47A20]" />
@@ -49,9 +49,9 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
               <div className="hidden items-center gap-4 md:flex">
                 <Link
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/truperdesign?igsh=ejMyaDdsZ2wwenBk"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label="Instagram"
                   className="inline-flex text-white/85 transition duration-300 hover:text-[#F47A20] hover:drop-shadow-[0_0_8px_rgba(244,122,32,0.28)]"
                 >

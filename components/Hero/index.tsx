@@ -20,21 +20,6 @@ const features = [
   },
 ];
 
-const heroImages = [
-  {
-    src: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80",
-    alt: "Premium branded t-shirt mockup",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1528701800489-2e5a53ac3fbb?auto=format&fit=crop&w=900&q=80",
-    alt: "Lifestyle cap mockup",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=900&q=80",
-    alt: "Premium polo shirt mockup",
-  },
-];
-
 export default function Hero() {
   return (
     <section id="top" className="fade-up relative overflow-hidden bg-[#050505] px-6 pt-24 pb-16 text-white sm:px-8 lg:px-10 lg:pb-28">
@@ -89,58 +74,17 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative mx-auto w-full max-w-[620px]">
-            <div className="relative overflow-hidden rounded-[2.5rem] border border-[#2a2a2a] bg-[#111111] p-6 shadow-[0_40px_120px_rgba(0,0,0,0.45)] sm:p-8">
-              <div className="relative rounded-[2rem] border border-white/10 bg-[#080808] p-6">
-                <div className="absolute left-5 top-6 h-[220px] w-[170px] rounded-[1.75rem] border border-white/10 bg-[#111111] shadow-xl shadow-black/40">
-                  <div className="absolute inset-0 rounded-[1.75rem] bg-[#ff6b00]/10 blur-3xl" />
-                  <div className="relative h-full overflow-hidden rounded-[1.75rem]">
-                    <Image
-                      src={heroImages[0].src}
-                      alt={heroImages[0].alt}
-                      fill
-                      sizes="(max-width: 768px) 180px, 220px"
-                      className="object-cover hover-zoom"
-                      priority
-                    />
-                  </div>
-                </div>
-
-                <div className="absolute right-10 top-14 h-28 w-28 rounded-[1.75rem] border border-white/10 bg-[#111111] shadow-xl shadow-black/40">
-                  <div className="absolute inset-0 rounded-[1.75rem] bg-[#ff6b00]/10 blur-3xl" />
-                  <div className="relative h-full overflow-hidden rounded-[1.75rem]">
-                    <Image
-                      src={heroImages[1].src}
-                      alt={heroImages[1].alt}
-                      fill
-                      sizes="(max-width: 768px) 100px, 120px"
-                      className="object-cover hover-zoom"
-                      priority
-                    />
-                  </div>
-                </div>
-
-                <div className="absolute bottom-24 left-1/2 h-32 w-32 -translate-x-1/2 rounded-[1.75rem] border border-white/10 bg-[#111111] shadow-xl shadow-black/40">
-                  <div className="absolute inset-0 rounded-[1.75rem] bg-[#ff6b00]/10 blur-3xl" />
-                  <div className="relative h-full overflow-hidden rounded-[1.75rem]">
-                    <Image
-                      src={heroImages[2].src}
-                      alt={heroImages[2].alt}
-                      fill
-                      sizes="(max-width: 768px) 140px, 160px"
-                      className="object-cover hover-zoom"
-                      priority
-                    />
-                  </div>
-                </div>
-
-                <div className="absolute inset-x-8 bottom-6 rounded-[1.5rem] border border-white/10 bg-[#080808]/95 p-4 text-sm text-[#c5c5c5] backdrop-blur-sm">
-                  <p className="font-semibold uppercase tracking-[0.28em] text-[#ff6b00]">Product composition</p>
-                  <p className="mt-2 text-[#c5c5c5]">
-                    Premium mockup set for apparel and merchandise with a modern presentation.
-                  </p>
-                </div>
-              </div>
+          <div className="relative flex h-[420px] w-full items-end justify-end sm:h-[560px] lg:h-[640px]">
+            <div className="relative h-[96%] w-full">
+              <Image
+                src="/images/truper/hero-banner.png"
+                alt="TRUPER hero banner"
+                fill
+                priority
+                quality={100}
+                sizes="(max-width: 768px) 100vw, 55vw"
+                className="pointer-events-none select-none object-contain object-right-bottom"
+              />
             </div>
           </div>
         </div>
