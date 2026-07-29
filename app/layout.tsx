@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import FloatingLanguageSwitcher from "@/components/UI/FloatingLanguageSwitcher";
 import FloatingWhatsApp from "@/components/UI/FloatingWhatsApp";
 import { LocaleProvider } from "@/components/UI/LocaleProvider";
 import "./globals.css";
@@ -42,6 +43,7 @@ export default function RootLayout({
         <LocaleProvider>
           {children}
           <FloatingWhatsApp />
+          <FloatingLanguageSwitcher />
         </LocaleProvider>
       </body>
     </html>

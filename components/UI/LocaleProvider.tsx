@@ -1,6 +1,6 @@
 "use client";
 
-import {createContext, useContext, useMemo, useState, type ReactNode} from "react";
+import {createContext, useContext, useEffect, useMemo, useState, type ReactNode} from "react";
 import {NextIntlClientProvider} from "next-intl";
 import en from "@/messages/en.json";
 import es from "@/messages/es.json";
@@ -19,8 +19,22 @@ const messagesByLocale = {
   es,
 };
 
+const LOCALE_STORAGE_KEY = "truper-locale";
+
 export function LocaleProvider({children}: {children: ReactNode}) {
-  const [locale, setLocale] = useState<Locale>("en");
+  const [locale, setLocale] = useState<Locale>(() => {
+    if (typeof window === "undefined") {
+      return "en";
+    }
+
+    const savedLocale = window.localStorage.getItem(LOCALE_STORAGE_KEY);
+
+    return savedLocale === "es" ? "es" : "en";
+  });
+
+  useEffect(() => {
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, locale);
+  }, [locale]);
 
   const value = useMemo(() => ({locale, setLocale}), [locale]);
 
